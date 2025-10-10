@@ -100,6 +100,7 @@ body {
     left: 50%;
     z-index: 1001;
 }
+
 .header__logo__about {
     position: fixed;
     width: 120px;
@@ -113,6 +114,7 @@ body {
     left: 50%;
     z-index: 1001;
 }
+
 .header__logo__contacto {
     position: fixed;
     width: 120px;
@@ -332,6 +334,7 @@ h2 {
     margin: 100px auto;
     border-radius: var(--border-radius);
 }
+
 .contenedor-blanco__about {
     background-color: #fff;
     height: 100%;
@@ -357,25 +360,29 @@ h2 {
     width: 50%;
     padding: 16px;
     border-radius: 10%;
-    
+
 }
-.carrusel{
+
+.carrusel {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
 }
 
-.car__img{
+.car__img {
     width: 50%;
 }
-.car__text{
+
+.car__text {
     font-size: 12px;
 }
-.car{
+
+.car {
     width: 50%;
-    
+
 }
+
 /* ===================== RECOMENDACIONES ===================== */
 
 .recomendacion__contenedor {
@@ -666,11 +673,13 @@ h2 {
     .header__styki__contacto {
         top: 60px;
     }
-    .header__styki__contacto .nav__floating{
-    position: absolute;
-    padding: 8px;
-    width: 100%;
+
+    .header__styki__contacto .nav__floating {
+        position: absolute;
+        padding: 8px;
+        width: 100%;
     }
+
     .header__styki__contacto .nav__floating .nav__links {
         flex-direction: row;
         flex-wrap: wrap;
@@ -678,47 +687,57 @@ h2 {
         gap: 0px;
     }
 }
+
 /* ===================== NOSOTROS ===================== */
 @media (max-width:510px) {
-    .recomendaciones__title{
+    .recomendaciones__title {
         font-size: 18px;
     }
+
     .header__logo__about {
-        left: -16px;
-        top: 140px;
+        display: none;
     }
 
     .header__styki__about {
-    top: 54px;
-    left: 184px;
+        position: sticky;
+        top: 54px;
+        left: 184px;
     }
-    .recomendacion__contenedor{
+
+    .recomendacion__contenedor {
         display: block;
     }
-    .carrusel{
+
+    .carrusel {
         flex-direction: column;
     }
-    .about__img{
+
+    .about__img {
         width: 90%;
     }
-        .mission__title{
+
+    .mission__title {
         font-size: 24px;
     }
-    .contenedor-blanco__about .main section{
+
+    .contenedor-blanco__about .main section {
         padding: 16px;
     }
-    .header__styki__about .nav__floating{
-    position: absolute;
-    padding: 8px;
-    width: 100%;
+
+    .header__styki__about .nav__floating {
+        position: absolute;
+        padding: 8px;
+        width: 100%;
     }
-     .header__styki__about .nav__floating .nav__links {
+
+    .header__styki__about .nav__floating .nav__links {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         gap: 0px;
     }
-    .about__title{
+
+    .about__title {
         font-size: 24px;
         padding-top: 24px;
     }
